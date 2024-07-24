@@ -1,0 +1,13 @@
+{
+  "deviceName": "iPhone 15 Pro Max",
+  "platformVersion": "17",
+  "platformName": "ios",
+  "app": "bs://8043641e6d31017ee3eeb8f7f91605ccda02c4b3"
+}
+
+
+
+
+
+
+
