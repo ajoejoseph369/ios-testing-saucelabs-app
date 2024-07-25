@@ -21,8 +21,17 @@ Feature: Test the functionality of the ecommerce app
 
   Scenario: User adds item to the cart
     Given user is on the product page
+    When user selects <colour> colour
+    When user selects <quantity> number
     When user clicks on add to cart button
     Then product is added to cart
+
+    Examples:
+      | colour | quantity |
+      | black  |        1 |
+      | blue   |        2 |
+      | grey   |        3 |
+      | red    |        4 |
 
   Scenario: User views cart
     Given user is on the cart page
@@ -34,3 +43,9 @@ Feature: Test the functionality of the ecommerce app
     When user enters all details
     Then user clicks on to payment button
     Then user is redirected to payment completion page
+
+  Scenario: User reviews order
+    Given user is on the payments page
+    When user fills in card details
+    Then user clicks review order
+    Then user is redirected to order completion page

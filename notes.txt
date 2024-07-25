@@ -6,6 +6,19 @@
 }
 
 
+//XCUIElementTypeOther[@name="cart screen"]/XCUIElementTypeScrollView
+//XCUIElementTypeOther[@name="product row" and @label="Sauce Labs Backpack $29.99 󰓏 󰓏 󰓏 󰓏 󰓏 Color: 1 Remove Item"]
+(//XCUIElementTypeOther[@name="Color:"])[1]
+//XCUIElementTypeOther[@name="counter amount" and @label="1"]
+
+//XCUIElementTypeOther[@name="product row" and @label="Sauce Labs Backpack $29.99 󰓏 󰓏 󰓏 󰓏 󰓏 Color: 2 Remove Item"]
+//XCUIElementTypeOther[@name="counter amount" and @label="2"]
+
+//XCUIElementTypeStaticText[@name="total number"]
+//XCUIElementTypeStaticText[@name="total price"]
+
+
+//XCUIElementTypeStaticText[@name="product price"]
 
 
 

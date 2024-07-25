@@ -22,6 +22,10 @@ class Checkout{
         await $(state).setValue('Karnataka');
         await $(zipcode).setValue('5858290');
         await $(country).setValue('India');
+        // await browser.hideKeyboard();
+        // await browser.execute('mobile: hideKeyboard');
+        // await browser.execute('mobile: pressButton', { value: 'return' });
+        await $(pageHeading).click();
     }
 
     async goToPayment(){
